@@ -93,12 +93,12 @@ nav .navbar{
   padding-left: 0px;
 }
 #about-us .content{
-  /* padding: 65px 50px 85px;
+  padding: 65px 50px 85px;
   width: 100%;
   background-color: #ffa500;
   float:right;
   text-align: justify;
-  overflow-x: hidden; */
+  overflow-x: hidden; 
   background-color:grey;
   padding-top: 10px;
   padding-right: 10px;
