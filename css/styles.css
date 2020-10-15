@@ -10,6 +10,12 @@ body{
   margin: 0;
   padding: 0;
 }
+.images{
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  margin-right: 90px;
+}
 
 h1 {
   letter-spacing: 10px;
@@ -28,8 +34,8 @@ h5 {
   height: 100%;
   width: 100%;
   position: absolute;
-  overflow-x: hidden; 
 }
+
 #head{
   padding-top: 10%;
 }
