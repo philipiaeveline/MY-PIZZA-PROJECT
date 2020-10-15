@@ -1,4 +1,4 @@
-html,body,header,
+ html,body,header,
 .landing {
   overflow-x: hidden;
   height: 100%;
@@ -18,7 +18,8 @@ h1 {
   font-family: 'Wallpoet', cursive;
   font-size: 70px;
   text-shadow: 2px 2px 5px rgb(5, 45, 156);
-}
+} 
+
 h5 {
   letter-spacing: 3px;
 }
@@ -27,7 +28,7 @@ h5 {
   height: 100%;
   width: 100%;
   position: absolute;
-  /* overflow-x: hidden; */
+  overflow-x: hidden; 
 }
 #head{
   padding-top: 10%;
@@ -44,6 +45,7 @@ nav .navbar{
 
   font-size: 20px;
   font-weight: 700;
+  float: left;;
 }
 .landing{
   background-image: url("../img/italy-pizza.jpg");
@@ -276,4 +278,4 @@ h1 {
     background: none !important;
     height: 180px;
     width: 350px;
-}
+} 
