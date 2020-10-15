@@ -190,29 +190,25 @@ td,th{
 #contact h2{
   text-align: center;
 }
-#contact{
-  color: black;
-}
+
 #contactdetails h2{
   text-align: left;
+  color: #ffa500;
 }
+#contact{
+  color: blueviolet;
+  }
 .footer{
   padding-top: 5%;
 }
 #addedprice{
   display: none;
 }
-#finallmessage{
-  display: none;
-  padding-top: 10%;
-  padding-right: 10%;
-  padding-left: 10%;
-  font-size: 28px;
-}
-#regards{
+
+ #regards{
   text-align: center;
   color: aliceblue;
-}
+} 
 #information{
   padding-top: 5%;
   font-size: 22px;
