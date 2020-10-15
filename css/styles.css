@@ -81,12 +81,7 @@ nav .navbar{
   color:peru;
   font-weight: 800;
 }
-.controls-top h2{
-  color:peru;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  font-weight: bolder;
-}
+
 .col-md-4{
   border-radius: 10%;
   padding: 10px;
@@ -104,8 +99,8 @@ nav .navbar{
 }
 #about-us .content{
   padding: 65px 50px 85px;
-  width: 100%;
-  background-color: #ffa500;
+  width: 100%; 
+
   float:right;
   text-align: justify;
   overflow-x: hidden; 
