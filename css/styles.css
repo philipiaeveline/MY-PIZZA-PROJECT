@@ -119,6 +119,21 @@ nav .navbar{
   top: 90%;
   margin-left:-20px;
   
+} 
+.piz{
+  animation: bounce 3s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-35px);
+  }
+  60% {
+    transform: translateY(-20px);
+  }
+
 }
 .bounce {
   animation: bounce 2s infinite;
@@ -182,6 +197,12 @@ td,th{
 }
 #contact{
   color: blueviolet;
+  background-color: wheat;
+  padding: 100px;
+  margin-top: 10px;
+  margin-bottom:10px ;
+  position: abosolute;
+
   }
 .footer{
   padding-top: 5%;
@@ -276,13 +297,6 @@ box-sizing: border-box;
 @media only screen and (max-width: 600px){
   body{background-color:purple;}
 }
-.bt{
-  background-color: white;
-  padding: 10px;
-  margin-right: 2px;
-  margin-left: 2px;
-  border: black;
-}
 
 .card-title1 {
   position: absolute;
@@ -373,4 +387,7 @@ box-sizing: border-box;
   margin-top: 18%;
   background: rgba(12, 23,23, 0.567);
   display: none;
+}
+.btn{
+  background-color: rgb(34, 194, 48);
 }

@@ -28,15 +28,15 @@ $(document).ready(function(){
       price =0;
     break;
     case "large":
-       price = 1200;
+       price = 1300;
        console.log(price);
      break;
      case "medium":
-       price = 850;
+       price = 950;
        console.log("The price is "+price);
      break;
      case "small":
-       price = 600;
+       price = 700;
        console.log(price);
      default:
        console.log("error"); 
@@ -46,18 +46,18 @@ $(document).ready(function(){
         crust_price = 0;
       break;
       case "Crispy":
-        crust_price = 200;
+        crust_price = 300;
       break;
       case "Stuffed":
-        crust_price = 250;
+        crust_price = 350;
       break;
       case "Gluten-free":
-        crust_price = 180;
+        crust_price = 200;
       break;
       default:
         console.log("No price"); 
     }
-    let topping_value = ptopping.length*50;
+    let topping_value = ptopping.length*60;
     console.log("toppins value" + topping_value);
     if((psize == "0") && (pcrust == "0")){
       console.log("nothing selected");
@@ -96,15 +96,15 @@ $(document).ready(function(){
           price =0;
         break;
         case "large":
-           price = 1200;
+           price = 1300;
            console.log(price);
          break;
          case "medium":
-           price = 850;
+           price = 950;
            console.log("The price is "+price);
          break;
          case "small":
-           price = 600;
+           price = 700;
            console.log(price);
          default:
            console.log("error"); 
@@ -114,18 +114,18 @@ $(document).ready(function(){
             crust_price = 0;
           break;
           case "Crispy":
-            crust_price = 200;
+            crust_price = 300;
           break;
           case "Stuffed":
-            crust_price = 150;
+            crust_price = 350;
           break;
           case "Gluten-free":
-            crust_price = 180;
+            crust_price = 200;
           break;
           default:
             console.log("No price"); 
         }
-        let topping_value = ptopping.length*50;
+        let topping_value = ptopping.length*60;
         console.log("toppins value" + topping_value);
 
         if((psize == "0") && (pcrust == "0")){
