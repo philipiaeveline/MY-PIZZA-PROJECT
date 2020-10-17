@@ -237,9 +237,7 @@ td,th{
 #about-us .content {
   padding: 20px 30px 40px;
 }
-.about-pic img{
-  width: 94%;
-}
+
 .order-overlay{
   background-color: rgba(0, 0, 0,0.5);
   margin-left: 2%;
