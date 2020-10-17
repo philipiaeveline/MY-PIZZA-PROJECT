@@ -1,6 +1,6 @@
 # MY-PIZZARIE-PROJECT
 #### This project interlinks clients to software developers, surtady October 15th 2020 
-#### BY**EVELINE PHILIPIA**
+#### BY**  EVELINE PHILIPIA**
 ## Description
 The main importance of pizza is simply to satisfy a person's hunger. Pizza is a meal that anyone can enjoy, with its many options of crust flavors and toppings. ... When parties and get-togethers are held for any occasion, pizza is the most common food served, because it's so easy to eat!.
 ## Project live site

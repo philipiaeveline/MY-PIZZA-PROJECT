@@ -206,50 +206,53 @@
                 <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
                 <div class="row">
                     <div class="col-sm-5">
-                        
+
                         <form action="">
                             <label for="select">Select Your Flavor</label>
                             <select class="browser-default custom-select custom-select-md mb-3 name">
-                              <!-- <option selected value="choose">Choose your flavor</option> -->
-                              <option value="Chicken Tikka">Chicken Tikka</option>
-                              <option value="PeriPeri Pizza">PeriPeri Pizza</option>
-                              <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
-                              <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
-                              <option value="Sunchoke Pizza">Sunchoke Pizza</option>
-                              <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+                                <!-- <option selected value="choose">Choose your flavor</option> -->
+                                <option value="Chicken Tikka">Chicken Tikka</option>
+                                <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                                <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
+                                <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+                                <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+                                <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
                             </select>
-                          <label for="select">Select Size</label>
-                          <select class="browser-default custom-select custom-select-md mb-3" id="size">
-                            <option selected value="0">Select size here</option>
-                            <option value="large">Large -- sh. 1200</option>
-                            <option value="medium">Medium -- sh. 850</option>
-                            <option value="small">Small -- sh. 600</option>
-                          </select>
-                          <label for="crust">Choose your favorite Crust!</label>
+                            <label for="select">Select Size</label>
+                            <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                                <option selected value="0">Select size here</option>
+                                <option value="large">Large -- sh. 1200</option>
+                                <option value="medium">Medium -- sh. 850</option>
+                                <option value="small">Small -- sh. 600</option>
+                            </select>
+                            <label for="crust">Choose your favorite Crust!</label>
                             <select class="browser-default custom-select custom-select-md mb-3" id="crust">
                                 <option selected value="0">Select your preferred crust!</option>
-                              <option value="Crispy">Crispy -- sh. 200</option>
-                              <option value="Stuffed">Stuffed -- sh. 150</option>
-                              <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                                <option value="Crispy">Crispy -- sh. 200</option>
+                                <option value="Stuffed">Stuffed -- sh. 150</option>
+                                <option value="Gluten-free">Gluten-free-- sh. 180</option>
                             </select>
-                          <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+                            <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
                             <div class="custom-control custom-checkbox custom-control-inline">
-                              <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
-                              <label class="custom-control-label" for="Sausage">Sausage</label>
+                                <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage"
+                                    name="toppings">
+                                <label class="custom-control-label" for="Sausage">Sausage</label>
                             </div>
                             <div class="custom-control custom-checkbox custom-control-inline">
-                              <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
-                              <label class="custom-control-label" for="Bacon">Bacon</label>
+                                <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon"
+                                    name="toppings">
+                                <label class="custom-control-label" for="Bacon">Bacon</label>
                             </div>
                             <div class="custom-control custom-checkbox custom-control-inline">
-                              <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
-                              <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                                <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms"
+                                    name="toppings">
+                                <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                             </div>
                             <br><br>
-                          <button type="submit" class="btn btn-orange proceed">Proceed</button>
-                          
+                            <button type="submit" class="btn btn-orange proceed">Proceed</button>
+
                         </form>
-                        
+
                     </div>
                     <div class="col-sm-7">
                         <div id="information">
@@ -283,17 +286,27 @@
                                 </table>
                                 <p id="pizzatotal"></p>
                                 <p id="totalbill"></p>
-                                <p id="addedprice">Delivery will cost sh. 150</p>
+                                <p id="addedprice">Delivery will cost sh. 180</p>
                                 <p id="finallmessage"></p>
                             </div>
-                            <div class="bt">
-                                <button class="btn btn-white" id="piza">Add Pizza</button>
-                                <button class="btn btn-white" id="Checkout">Checkout</button>
-                                <button class="btn btn-white deliver" id="de">Home delivery?</button>
-                            </div>
+                            <button class="btn btn-orange addPizza">Add Pizza</button>
+                            <button class="btn btn-orange" id="checkout">Checkout</button>
+                            <button class="btn btn-orange deliver">Home delivery</button>
+
                         </div>
                         <br>
                         <div class="delivery">
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                    <input type="number" id="phone" class="form-control mb-3"
+                                        placeholder="Pnone Number">
+                                    <input type="text" id="location" class="form-control mb-3"
+                                        placeholder="Location for delivery">
+                                    <button class="btn btn-orange" id="final-order">Place Order</button>
+                                </div>
+                            </form>
+                            <!-- <div class="delivery">
                             <form action="" onclick="please()">
                                 <div class="form-group">
                                     <input type="text" id="name" class="form-control mb-3" required placeholder="Name">
@@ -305,55 +318,55 @@
 
                                 </div>
                             </form>
+                        </div> -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid bg-default" id="contact">
-            <div class="controls-top ">
-                <h2>Contact Us</h2>
-            </div>
-            <div class="row" id="contactdetails">
-                <div class="col-md-1">
 
+
+            <div class="container-fluid bg-default" id="contact">
+                <div class="controls-top ">
+                    <h2>Contact Us</h2>
                 </div>
-                <div class="col-md-3 text-justify">
-                    <h2>Location</h2>
-                    <p>Pizzaria caldera</p>
-                    <p>Maasai Mall | Ongata Rongai</p>
-                    <p>22225,Rongai </p>
-                </div>
-                <div class="col-md-3">
-                    <h2>Customer Care</h2>
-                    <p>philipiaeveline13@gmail.com</p>
-                    <p>Tell: 0296859916</p>
-                    <p>Phone: +254796859916</p>
-                </div>
-                <div class="col-md-4">
-                    <div class="mapouter">
-                        <div class="gmap_canvas">
-                            <iframe width="350" height="180" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=masaai%20mall&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                            </iframe>
+                <div class="row" id="contactdetails">
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-3 text-justify">
+                        <h2>Location</h2>
+                        <p>Pizzaria</p>
+                        <p>Maasai Mall | Ongata Rongai</p>
+                        <p>54453,Rongai </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>Customer Care</h2>
+                        <p>philipiaeveline13@gmail.com</p>
+                        <p>Tell: 0266985673</p>
+                        <p>Phone: +254796859916</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe width="350" height="180" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=masaai%20mall&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                </iframe>
+                            </div>
+                            
                         </div>
-                        <style>
-
-                        </style>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="container text-center footer">
+                        <p>&copy; 2020 | Pizzaria</p>
                     </div>
                 </div>
-                <div class="col-md-1"></div>
             </div>
-            <div class="row">
-                <div class="container text-center footer">
-                    <p>&copy; 2020 | pizzaria calddera</p>
-                </div>
-            </div>
-        </div>
-        
-        <script src="js/jquery-3.5.1.js"></script>
-        <script src="js/script.js"></script>
+
+            <script src="js/jquery-3.5.1.js"></script>
+            <script src="js/script.js"></script>
     </body>
 
 </html>
